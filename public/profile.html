@@ -11,7 +11,7 @@
 <body class="font-sans bg-white flex flex-col min-h-screen min-w-full">
     <div class="bg-white border-b">
         <div class="container mx-auto px-4">
-            <div class="flex items-center md:justify-between py-4">
+            <div class="flex items-center md:justify-between py-2 md:py-4">
                 <div class="w-1/4 md:hidden">
                     <svg class="fill-current text-black h-8 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path
@@ -42,18 +42,23 @@
         </div>
     </div>
 
-    <div class=" container bg-white mx-auto px-4 my-8 border  border-gray-500 rounded-md">
-        <div class="flex  border-b border-b-gray-500 py-4">
+    <div class=" container bg-white mx-auto px-4 md:my-8 md:border  md:border-gray-500 md:rounded-md">
+        <div class="flex justify-between md:justify-start border-b border-b-gray-500 py-4">
             <a href="#" class="font-light text-indigo-600 mr-4 hover:text-indigo-700">My Profile</a>
-            <a href="#" class="font-light text-gray-600 mr-4 hover:text-indigo-700">Preferences</a>
-            <a href="#" class="font-light text-gray-600 mr-4 hover:text-indigo-700">Account Activity</a>
-            <a href="#" class="font-light text-gray-600 mr-4 hover:text-indigo-700">Privacy Rights</a>
-            <a href="#" class="font-light text-gray-600 mr-4 hover:text-indigo-700">Linked Accounts</a>
-            <a href="#" class="font-light text-gray-600 mr-4 hover:text-indigo-700">API Access</a>
-            <a href="#" class="font-light text-gray-600 mr-4 hover:text-indigo-700">Account Levels</a>
+            <a href="#" class="font-light text-gray-600 mr-4 hover:text-indigo-700 hidden md:block">Preferences</a>
+            <a href="#" class="font-light text-gray-600 mr-4 hover:text-indigo-700 hidden md:block">Account Activity</a>
+            <a href="#" class="font-light text-gray-600 mr-4 hover:text-indigo-700 hidden md:block">Privacy Rights</a>
+            <a href="#" class="font-light text-gray-600 mr-4 hover:text-indigo-700 hidden md:block">Linked Accounts</a>
+            <a href="#" class="font-light text-gray-600 mr-4 hover:text-indigo-700 hidden md:block">API Access</a>
+            <a href="#" class="font-light text-gray-600 mr-4 hover:text-indigo-700 hidden md:block">Account Levels</a>
+            <div class="md:hidden  ">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+            </div>
         </div>
-        <div class="flex  mr-2 py-4">
-            <div class="flex items-center">
+        <div class="flex flex-col md:flex-row mr-2 py-4">
+            <div class="flex items-center py-2 ">
                 <div class="h-16 w-16 overflow-hidden rounded-full ">
                     <img src="https://images.coinbase.com/avatar?h=5ea0a6032338a425b163ebIrKVXlCZH%2Be3Jl4ElAU2KIfxFVs60xy2d%2BHyT%2F%0Ao3TZ&amp;s=128"
                         class="Avatar__AvatarImage-hgevj6-0 fzdyiV ChangePicture__UserPicture-sc-1j7rzba-1 fSNWvM"
@@ -91,7 +96,7 @@
         <div class="border-b border-gray-500">
             <p class="text-xl py-2">My Profile</p>
         </div>
-        <div class="container w-1/2 px-2 py-2">
+        <div class="container w-full md:w-1/2 px-2 py-2">
             <div class="py-4">
                 <p class="text-xs font-light text-left pb-1">Display name</p>
                 <input type="text" placeholder="Full Name"
@@ -110,7 +115,7 @@
         <div class="border-b border-gray-500">
             <p class="text-xl py-2">Personal Details</p>
         </div>
-        <div class="container w-1/2 px-2 py-2">
+        <div class="container w-full md:w-1/2 px-2 py-2">
             <div class="py-4">
                 <p class="text-xs font-light text-left pb-1">Legal name</p>
                 <div class="border border-gray-300 text-gray-500 w-full py-3 rounded-md bg-gray-300 px-2 items-center">
@@ -217,9 +222,9 @@
         <div class="container mx-auto px-4">
             <div class="md:flex justify-between items-center text-sm">
                 <div class="text-center md:text-left py-3 md:py-4 border-b md:border-b-0">
-                    <a href="#" class="no-underline text-gray-700 mr-4">Home</a>
-                    <a href="#" class="no-underline text-gray-700 mr-4">Careers</a>
-                    <a href="#" class="no-underline text-gray-700">Legal &amp; Privacy</a>
+                    <a href="#" class="no-underline text-indigo-600 mr-4 ">Home</a>
+                    <a href="#" class="no-underline text-indigo-600 mr-4">Careers</a>
+                    <a href="#" class="no-underline text-indigo-600">Legal &amp; Privacy</a>
                 </div>
                 <div class="md:flex md:flex-row-reverse items-center py-4">
                     <div class="text-center mb-4 md:mb-0 md:flex">
