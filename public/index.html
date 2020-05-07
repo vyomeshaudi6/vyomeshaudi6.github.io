@@ -23,7 +23,7 @@
                     </div>
                 </div>
 
-                <div class="flex items-center  py-4">
+                <div class="flex  items-center  py-4">
                     <div class="hidden md:block">
                         <a href="signingIn.html" class=" px-2 text-blue-700 hover:text-blue-400 mr-2">Sign In</a>
                     </div>
@@ -45,16 +45,14 @@
                 <p class="text-blue-700  font-medium text-5xl inline-block mb-2">Buy and Sell Cryptocurrency</p>
                 <p class=" text-blue-600 mb-4">Opoch is the easiest place to buy, sell, and manage your
                     cryptocurrency portfolio.</p>
-                <div class="flex justify-center py-8">
-                    <div>
-                        <input type="text" placeholder="Mobile number" class="px-6 py-4  border border-2 rounded mr-2">
-
+                <div class="flex flex-col md:flex-row justify-center py-8">
+                    <div class=" md:px-2">
+                        <input type="text" placeholder="Mobile number"
+                            class="block px-6 py-4 w-full border border-2 rounded md:mr-2 mb-2">
                     </div>
-                    <div>
-                        <a href="signup.html"
+                    <div><a href="signup.html"
                             class=" block bg-blue-700 hover:bg-blue-700 text-white border border-blue-400 rounded px-6 py-4">Get
-                            started
-                        </a>
+                            started</a>
                     </div>
 
                 </div>
@@ -64,7 +62,7 @@
                     <div
                         class="flex-grow flex flex-col bg-white border-t border-b sm:rounded sm:border shadow overflow-hidden">
                         <div class="border-b">
-                            <div class="flex  text-left px-6 -mb-px justify-between ">
+                            <div class="flex text-left px-6 -mb-px justify-between ">
                                 <div class="text-gray-500 py-4 font-normal text-lg hidden lg:block  lg:w-1/12">#</div>
                                 <div class="text-gray-500 py-4 font-normal text-lg  lg:w-5/12">Name</div>
                                 <div class="text-gray-500 py-4 font-normal text-lg  lg:w-3/12">Price</div>
@@ -78,7 +76,7 @@
                             </div>
                         </div>
                         <div class="border-b">
-                            <div class="flex  text-left px-6 -mb-px justify-between ">
+                            <div class="flex  px-6 -mb-px justify-between ">
                                 <div class="text-gray-500 py-4 font-normal text-lg hidden lg:block  lg:w-1/12">1</div>
                                 <div class="text-black py-4 font-normal text-lg  lg:w-5/12">
                                     <div class="w-2/5 xl:w-1/4 flex items-center">
@@ -92,12 +90,16 @@
                                                 </g>
                                             </svg>
                                         </div>
-                                        <span class="text-lg pr-2">Bitcoin</span>
-                                        <span class="text-lg text-gray-500">BTC</span>
+                                        <div class="flex flex-col md:flex-row">
+                                            <span class="text-lg pr-2">Bitcoin</span>
+                                            <span class="text-lg text-gray-500">BTC</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="text-black py-4 font-normal text-lg  lg:w-3/12">₹660,390.63</div>
-                                <div class="text-green-500 py-4 font-normal text-lg hidden lg:block  lg:w-1/12">+1.39%
+                                <div class=" flex flex-col lg:flex-row py-4  lg:w-4/12 ">
+                                    <div class="text-black font-normal text-lg  lg:w-3/4">₹660,390.63</div>
+                                    <div class="text-green-500 px-2 font-normal text-lg lg:w-1/4 text-left"> +1.39%
+                                    </div>
                                 </div>
                                 <div class="text-blue-700 py-4 font-normal text-lg hidden lg:block  lg:w-1/12">
                                     <svg viewBox="0 0 100 32" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +118,7 @@
                             </div>
                         </div>
                         <div class="border-b">
-                            <div class="flex  text-left px-6 -mb-px justify-between ">
+                            <div class="flex  px-6 -mb-px justify-between ">
                                 <div class="text-gray-500 py-4 font-normal text-lg hidden lg:block  lg:w-1/12">2</div>
                                 <div class="text-black py-4 font-normal text-lg  lg:w-5/12">
                                     <div class="w-2/5 xl:w-1/4  flex items-center">
@@ -130,12 +132,17 @@
                                                 </g>
                                             </svg>
                                         </div>
-                                        <span class="text-lg pr-2">Ethereum</span>
-                                        <span class="text-lg text-gray-500">ETH</span>
+                                        <div class="flex flex-col md:flex-row">
+                                            <span class="text-lg pr-2">Ethereum</span>
+                                            <span class="text-lg text-gray-500">ETH</span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="text-black py-4 font-normal text-lg  lg:w-3/12">₹660,390.63</div>
-                                <div class="text-green-500 py-4 font-normal text-lg hidden lg:block  lg:w-1/12">+1.39%
+                                <div class=" flex flex-col lg:flex-row py-4  lg:w-4/12 ">
+                                    <div class="text-black font-normal text-lg  lg:w-3/4">₹660,390.63</div>
+                                    <div class="text-green-500 px-2 font-normal text-lg lg:w-1/4 text-left"> +1.39%
+                                    </div>
+
                                 </div>
                                 <div class="text-blue-700 py-4 font-normal text-lg hidden lg:block  lg:w-1/12">
                                     <svg viewBox="0 0 100 32" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +161,7 @@
                             </div>
                         </div>
                         <div class="border-b">
-                            <div class="flex  text-left px-6 -mb-px justify-between ">
+                            <div class="flex px-6 -mb-px justify-between ">
                                 <div class="text-gray-500 py-4 font-normal text-lg hidden lg:block  lg:w-1/12">2</div>
                                 <div class="text-black py-4 font-normal text-lg  lg:w-5/12">
                                     <div class="w-2/5 xl:w-1/4  flex items-center">
@@ -168,12 +175,18 @@
                                                 </g>
                                             </svg>
                                         </div>
-                                        <span class="text-lg pr-2">Litecoin</span>
-                                        <span class="text-lg text-gray-500">LTC</span>
+                                        <div class="flex flex-col md:flex-row">
+                                            <span class="text-lg pr-2">Litecoin</span>
+                                            <span class="text-lg text-gray-500">LTC</span>
+                                        </div>
+
                                     </div>
                                 </div>
-                                <div class="text-black py-4 font-normal text-lg  lg:w-3/12">₹660,390.63</div>
-                                <div class="text-red-500 py-4 font-normal text-lg hidden lg:block  lg:w-1/12">-0.65%
+                                <div class=" flex flex-col lg:flex-row py-4  lg:w-4/12 ">
+                                    <div class="text-black font-normal text-lg  lg:w-3/4">₹660,390.63</div>
+                                    <div class="text-red-500 px-2 font-normal text-lg  lg:block  lg:w-1/4 text-left">-0.65%
+                                </div>
+                                
                                 </div>
                                 <div class="text-blue-700 py-4 font-normal text-lg hidden lg:block  lg:w-1/12">
                                     <svg viewBox="0 0 100 32" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +215,7 @@
                     trading</p>
                 <div class="flex flex-wrap-reverse md:flex-no-wrap pt-18 md:pt-24">
                     <div class="flex flex-wrap md:flex-no-wrap  flex-col">
-                        <div class="flex flex-wrap md:flex-no-wrap pb-8 ">
+                        <div class="flex flex-wrap md:flex-no-wrap pb-8 justify-center">
                             <div class="w-20 h-20 flex-shrink-0 px-6 rounded-full shadow inline-flex items-center">
                                 <svg class="w-10 h-10 " viewBox="0 0 30 32" xmlns="http://www.w3.org/2000/svg">
                                     <g fill="none" fill-rule="evenodd">
@@ -314,9 +327,9 @@
                 <p class="text-gray-700  font-medium text-4xl inline-block mb-2">The most trusted cryptocurrency
                     platform</p>
                 <p class=" text-gray-600 mb-4">Here are a few reasons why you should choose Opoch</p>
-                <div class="flex pt-24 justify-between ">
-                    <div class="flex flex-col px-8 ">
-                        <div class="pb-16 mx-auto">
+                <div class="flex flex-col  md:flex-row pt-24 justify-between ">
+                    <div class="flex flex-col px-8 py-4 ">
+                        <div class="pb-8  md:pb-16 mx-auto">
                             <svg class="h-16 w-16" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M56 0H8v50h48V0z" fill="#BFE9FF"></path>
                                 <path d="M64 10H0v48h64V10z" fill="#56B4FC"></path>
@@ -332,8 +345,8 @@
                         <div class=" text-gray-600 mx-auto">We store the vast majority of the digital assets in secure
                             offline storage.</div>
                     </div>
-                    <div class="flex flex-col px-8">
-                        <div class="pb-16 mx-auto">
+                    <div class="flex flex-col px-8 py-4">
+                        <div class=" pb-8  md:pb-16 mx-auto">
                             <svg class="h-16 w-16" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M56 56h-8v8h8c4.42 0 8-3.58 8-8h-8z" fill="#BFE9FF"></path>
                                 <path d="M48 56V0H0v56c0 4.42 3.58 8 8 8h48c-4.42 0-8-3.58-8-8z" fill="#56B4FC"></path>
@@ -348,8 +361,8 @@
                         <div class=" text-gray-600 mx-auto">Cryptocurrency stored on our servers is covered by our
                             insurance policy.</div>
                     </div>
-                    <div class="flex flex-col px-8">
-                        <div class="pb-16 mx-auto">
+                    <div class="flex flex-col px-8 py-4">
+                        <div class="pb-8  md:pb-16 mx-auto">
                             <svg class="h-16 w-16" viewBox="0 0 56 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M56 0H24v64h32V0z" fill="#BFE9FF"></path>
                                 <path d="M0 8v28c0 13.25 24 24 24 24s24-10.75 24-24V8H0z" fill="#56B4FC"></path>
