@@ -10,32 +10,45 @@
 
 <body>
     <div class=" w-full md:w-2/5 mx-auto px-4 flex flex-col items-center justify-center py-20  ">
-        <div>
-            <p class="text-4xl text-blue-800 pb-8">Change password</p>
-        </div>
+        
         <div class="bg-white shadow  border rounded">
+            <div>
+                <p class="text-xl text-center text-blue-800 py-4 px-8 lg:px-16">Verify your phone number</p>
+            </div>
             <div class="mb-2 pb-4 ">
                 <div class=" mb-4 mt-4 px-4">
-                    <label class=" font-light">Old Password</label>
-                    <input
-                        class="  border  rounded w-full mr-2 py-4 px-3 text-gray-400 mb-3 leading-tight focus:outline-none focus:border-indigo-500 "
-                        id="name" type="text" placeholder="Old Password">
-                    <label class=" font-light hidden">Required</label>
+                    <p class=" font-light">Country</p>
+                    <div class="w-full inline-block relative mb-4 md:mb-0 md:mr-4">
+                        <select
+                            class="leading-tight block focus:outline-none appearance-none w-full bg-white border border-gray-400 px-3 py-4 pr-8 rounded">
+                            <option>India</option>
+                            <option>Nepal</option>
+                        </select>
+                        <div
+                            class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
+                            <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20">
+                                <path
+                                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                        </div>
+                    </div>
                 </div>
                 <div class="  mb-4 px-4">
-                    <label class=" font-light">New Password</label>
-                    <input
-                        class=" border rounded  w-full py-4 px-3 text-gray-400 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
-                        id="password" type="email" placeholder="New Password">
-                    <label class=" font-light hidden">Required</label>
+                    <label class=" font-light">Your Phone Number</label>
+                    <div class="flex border rounded ">
+                        <div class="bg-gray-400 py-4 px-4 text-gray-600 text-center items-center border-r">
+                            <label >+91</label>
+                        </div>
+                        <div>
+                            <input
+                            class=" w-full py-4 px-3  focus:outline-none focus:border-indigo-500 "
+                            id="password" type="email" autofocus ></div>
+                    </div>
+                    
+                    <label class="font-light text-yellow-500 hidden  ">Phone number is required.</label>
                 </div>
-                <div class="  mb-4 px-4">
-                    <label class=" font-light">Confirm new password</label>
-                    <input
-                        class=" border rounded  w-full py-4 px-3 text-gray-400 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
-                        id="password" type="password" placeholder="Confirm new password">
-                    <label class=" font-light hidden">Required</label>
-                </div>
+                
                 <div class="flex flex-col text-center items-center">
                     <label class="font-light py-2">Enter your 2-step verification code</label>
                     <div class="flex">
@@ -57,12 +70,10 @@
                     </div>
                     <label class="font-light text-xs">Didn't receive the SMS?<a href="#"class="hover:text-indigo-600 text-indigo-500"> Re-send SMS</a></label>
                 </div>
-                <div class="flex justify-center py-8 ">
-                    <div class=" mx-4 text-center  border rounded hover:border-blue-500 focus:shadow-outline">
-                        <button class=" px-2 py-2  hover:text-blue-500 focus:outline-none " type="button">Cancel</button>
-                    </div>
+                <div class="block  py-8 ">
+                    
                     <div class=" mx-4  text-center bg-blue-700  hover:bg-blue-800 border  rounded focus:shadow-outline">
-                        <button class=" text-white  px-2 py-2  focus:outline-none " type="button">Confirm</button>
+                        <button class=" text-white  px-2 py-2  focus:outline-none " type="button">Send</button>
                     </div>
                 </div>
                 
